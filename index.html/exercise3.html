@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Page</title>
+    <link rel="stylesheet" href="/style.css/style.css">
+    <link rel="stylesheet" href="/style.css/exercise.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        progress {
+            width: 80%;
+            height: 20px;
+        }
+        label {
+            font-size: 18px;
+            margin-bottom: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="./exercise.html">Class Schedule</a>
+        <a href="./exercise2.html">Registration</a>
+        <a href="./exercise3.html">Media</a>
+        <a href="./exercise5.html">Semantic Html</a>
+        <a href="./exercise7.html">Progress</a>
+    </nav>
+    <h1>Media Embeds</h1>
+    <h2>YouTube Video</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/QoKpQMJnBHY?si=QXyGHo_FWVJ3AXVi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <title>Audio Player</title>
+</head>
+<body>
+    <h1>Audio</h1>
+    <audio controls>
+        <source src="zvuk-iphone-standartnyi-samyi-populyarnyi.mp3" type="audio/mpeg">
+        Ваш браузер не поддерживает воспроизведение аудио.
+    </audio>
+    <h2>Download PDF</h2>
+    <a href="/index.html/HTML tags PS (1).pdf" download>Download PDF</a>
+    <label for="progressBar">75% Completed</label>
+    <progress id="progressBar" value="75" max="100"></progress>
+</body>
+</html>
